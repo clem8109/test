@@ -9,14 +9,10 @@ document.getElementById("app").innerHTML = `
 </div>
 `;
 
-var teest = function(){
-
-    return {
-        init: function(){
-          alert('test');
-          function test() {
-           
-          }sdsd
-        }sd
+var teest = (function () {
+  return {
+    init: function () {
+      alert("test");
     }
-}();dsdd
+  };
+})();
